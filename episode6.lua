@@ -79,4 +79,4 @@ local metatable = {
 setmetatable(car,metatable)
 
 print(car.speed)--60
-print(car.maxSpeed) --nil
+print(car.maxSpeed) --200 after now it relates the metatable to the carS

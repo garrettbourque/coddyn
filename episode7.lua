@@ -13,6 +13,8 @@ file:write("learning file handling")
 file:close()
 
 ]]
+
+--[[
 local file = io.open("myfile.txt","r")
 
 if file then
@@ -24,4 +26,13 @@ file:close()
 else
     print("File not found!")
 
-end
+endS
+
+
+]]
+
+--[[in order to remove a file
+
+os.remove("myfile.txt")
+
+]]

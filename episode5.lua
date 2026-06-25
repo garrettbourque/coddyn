@@ -35,12 +35,12 @@ sayHi("Charlie")
 
 
 --Recursive problems
-function factorial(n)
+function Ffactorial(n)
 
     if n==0 then
         return 1
-    else return n*factorial(n-1)
+    else return n*Ffactorial(n-1)
     end
 end
 
-print(factorial(9))
+print(Ffactorial(9))
